@@ -13,3 +13,8 @@ header {
 .formulario input {
 margin-bottom: 5px;
 }
+
+.cajita {
+    border: solid black;
+    border-radius: 10px;
+}
