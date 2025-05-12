@@ -101,3 +101,10 @@ a {
   padding: 45px;
   text-align: center;
 }
+
+p {
+  font-weight:lighter;
+  color: rgb(154, 153, 153);
+  text-align: left;
+  font-size: 14px;
+}
