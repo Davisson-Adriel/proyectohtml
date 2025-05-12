@@ -3,36 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>Registro - ACME AIR</title>
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
-    <header>
+    
+    <section class="registro-container">
+    
+    <div class="header">
+        
+    </div>
 
-    </header>
+        <div class="formulario">
 
-    <section class="formulario">
-
-        <h1>Registro</h1>
-        <hr>
-        <input type="name" name="nombre" placeholder="Nombre Completo" required>
-        <br>
-        <input type="id" name="id" placeholder="No. Identificación" required>
-        <br>
-        <input type="email" name="email" placeholder="E-mail" required>
-        <br>
-        <input type="phone" name="phone" placeholder="Télefono" required>
-        <br>
-        <select name="tamaño" id="tamaño" required>
-            <option value="">Ciudad</option>
-            <option value="personal">Personal</option>
-            <option value="mediana">Mediana</option>
-            <option value="familiar">Familiar</option>
-        </select>
-        <br>
-        <button type="submit">GUARDAR</button>
-
+            <h1>Registro</h1>
+            <hr>
+            <form>
+                <input type="name" name="nombre" placeholder="Nombre Completo" required>
+                <br>
+                <input type="id" name="id" placeholder="No. Identificación" required>
+                <br>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <br>
+                <input type="phone" name="phone" placeholder="Télefono" required>
+                <br>
+                <select name="ciudad" id="ciudad" required>
+                    <option value="">Ciudad</option>
+                    <option value="Bucaramanga">Bucaramanga</option>
+                    <option value="Bogota">Bogota</option>
+                    <option value="Saravena">Saravena</option>
+                </select>
+                <br>
+                <button type="submit">GUARDAR</button>
+            </form>
+        </div>
     </section>
-
 </body>
 </html>

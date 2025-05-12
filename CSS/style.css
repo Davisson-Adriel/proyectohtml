@@ -12,9 +12,27 @@ body {
 }
 
 .inicio-container {
-  width: 350px;
+  width: 100%;
+  height: 100%;
   padding: 25px;
   text-align: center;
+}
+
+.registro-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario {
+ display: flex;
+ flex-direction: column;
+ padding: 30px;
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
 }
 
 .logo {
@@ -22,16 +40,27 @@ body {
 }
 
 h2 {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 
-form input[type="email"], form input[type="password"] {
+h1 {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+
+form input[type="email"], form input[type="password"], form input[type="id"], form input[type="name"], form input[type="phone"], form select {
   width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  border: 1px solid #ccc;
+  padding: 18px;
+  margin: 10px 0;
+  border: 1px solid #c0bfbf;
   border-radius: 5px;
+}
+
+hr {
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .recuerdame {
@@ -49,13 +78,14 @@ form input[type="email"], form input[type="password"] {
 
 button {
   width: 100%;
-  background-color: #2196f3;
+  background-color: #2099fc;
   color: white;
   border: none;
   padding: 15px;
   margin-top: 10px;
   border-radius: 8px;
   font-weight: bold;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
 }
 
 a {
@@ -64,4 +94,10 @@ a {
   margin-top: 20px;
   margin-top: 20px;
   font-size: 14px;
+}
+
+.header {
+  background: linear-gradient(to right, #d13c9f , #359ee6);
+  padding: 45px;
+  text-align: center;
 }
