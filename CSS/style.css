@@ -110,7 +110,7 @@ button {
 
 a {
   display: block;
-  color: #2196f3;
+  color: #868787;
   margin-top: 20px;
   margin-top: 20px;
   font-size: 14px;
@@ -164,6 +164,10 @@ p {
 }
 
 .cajita2 form {
+  width: 100%;
+}
+
+.cajita2 a {
   width: 100%;
 }
 
@@ -269,4 +273,8 @@ strong {
   width: 80px;
   margin-left: -10px;
   margin-top: 4px;
+}
+
+.linkc {
+  text-decoration: none;
 }
