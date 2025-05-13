@@ -116,6 +116,14 @@ a {
   font-size: 14px;
 }
 
+.linkinde a {
+  display: block;
+  color: #2099fc;
+  margin-top: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
 .header {
   background: linear-gradient(to right, #d13c9f , #359ee6);
   padding: 5px;
