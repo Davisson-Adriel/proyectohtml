@@ -6,9 +6,14 @@
 }
 
 body {
-  background-color: white;
+  background:  linear-gradient(to right, #d13c9f , #359ee6);
+  width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.fondo {
+  background:  white;
 }
 
 .inicio-container {
@@ -16,6 +21,7 @@ body {
   height: 100%;
   padding: 25px;
   text-align: center;
+  background-color: #ffffff;
 }
 
 .registro-container {
@@ -33,6 +39,8 @@ body {
  padding: 30px;
  border-top-right-radius: 10px;
  border-top-left-radius: 10px;
+ background-color: #ffffff;
+ height: 100vh;
 }
 
 .logo {
@@ -128,6 +136,7 @@ a {
   background: linear-gradient(to right, #d13c9f , #359ee6);
   padding: 5px;
   text-align: center;
+  z-index: -1;
 }
 
 p {
@@ -298,7 +307,6 @@ strong {
       font-size: 40px;
       background-color: #f8d7da;
       color: #721c24;
-    
     }
 
 }
