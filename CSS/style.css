@@ -114,20 +114,30 @@ p {
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 2px 1px rgba(0, 0, 0, 0.15);
-  padding: 35px;
-  margin: 11px 0;
+  padding: 20px;
+  margin: 10px 0;
   border: solid 0.2px rgba(0, 0, 0, 0.15);
   display:flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.cajitahija1 {
-    flex:1;
-    text-align: left;
+.cajita img {
+  width: 100px;
+  padding: 0px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  margin-left: -20px;
 }
 
-.cajitahija2 {
-    flex:1;
-    align-content: center;
+.texto {
+  margin-left: -20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.flecha {
+  font-weight: bold;
 }
 
 .header img {
