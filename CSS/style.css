@@ -50,7 +50,13 @@ h1 {
     font-size: 25px;
 }
 
-form input[type="email"], form input[type="password"], form input[type="id"], form input[type="name"], form input[type="phone"], form select {
+h3 {
+  font-weight: lighter;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form input[type="email"], form input[type="password"], form input[type="id"], form input[type="name"], form input[type="phone"], form select, form input[type="text"], form input[type="date"] {
   width: 100%;
   padding: 18px;
   margin: 10px 0;
@@ -73,7 +79,20 @@ hr {
   font-size: 14px;
 }
 
+.soloida {
+  display: flex;
+  justify-content: left;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 0;
+  font-size: 14px;
+}
+
 .recuerdame input {
+  margin-right: 8px;
+}
+
+.soloida input {
   margin-right: 8px;
 }
 
@@ -144,5 +163,27 @@ p {
     width: 300px;
     margin: 0;
     padding: 0;
+}
 
+.usuario {
+  margin-top: -30px;
+  display: flex;
+  text-align: left;
+}
+
+.usuariotext {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.usuariotext h2 {
+  font-size: 22px;
+  margin-bottom: -20px;
+}
+
+.usuario img {
+  width: 80px;
+  margin-left: -10px;
+  margin-top: 4px;
 }
