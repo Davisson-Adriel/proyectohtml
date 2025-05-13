@@ -286,3 +286,19 @@ strong {
 .linkc {
   text-decoration: none;
 }
+
+@media (min-width: 800px) {
+  body * {
+    display: none;
+  }
+
+  body::before {
+      content: "Esta página solo está disponible para móviles.";
+      text-align: center;
+      font-size: 40px;
+      background-color: #f8d7da;
+      color: #721c24;
+    
+    }
+
+}
