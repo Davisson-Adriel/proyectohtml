@@ -150,6 +150,25 @@ p {
   align-items: center;
 }
 
+.cajita2 {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 2px 1px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin: 10px 0;
+  border: solid 0.2px rgba(0, 0, 0, 0.15);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cajita2 p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
 .cajitavd {
   background-color: #ffffff;
   border-radius: 8px;
