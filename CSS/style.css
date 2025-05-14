@@ -296,17 +296,35 @@ strong {
   text-decoration: none;
 }
 
+.anucio {
+  display: none;
+}
+
+
 @media (min-width: 800px) {
-  body * {
-    display: none;
+  main {
+    display:none;
   }
 
-  body::before {
-      content: "Esta página solo está disponible para móviles.";
-      text-align: center;
-      font-size: 40px;
-      background-color: #f8d7da;
-      color: #721c24;
-    }
+  .anucio {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+    margin: 10px 80px;
+    border: 1px solid;
+    border: 1px solid #c0bfbf;
+    box-shadow: 0 4px 2px 1px rgba(0, 0, 0, 0.15);
+  }
+
+  .anucio img {
+    width: 45%;
+  }
+
+  .anucio h1 {
+    font-size: 60px;
+    text-align: center;
+  }
 
 }
