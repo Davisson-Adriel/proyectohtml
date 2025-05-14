@@ -300,6 +300,10 @@ strong {
   display: none;
 }
 
+main {
+  display: flex;
+  width: 100%;
+}
 
 @media (min-width: 800px) {
   main {
