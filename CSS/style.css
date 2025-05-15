@@ -308,6 +308,7 @@ main {
 @media (min-width: 800px) {
   main {
     display:none;
+    background: white;
   }
 
   .anucio {
